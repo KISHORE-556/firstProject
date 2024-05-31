@@ -12,5 +12,10 @@ public class firstProject {
         return "Hello World!!";
     }
 
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "HI!!!";
+    }
+
 
 }
